@@ -6,9 +6,7 @@ public class DigitsSum {
         int result =  0;
         for (int i = 0; i <= tempLength.length() ; i++) {
             result = result + t % 10;
-            System.out.println("<<<<<" + result);
             t = t / 10;
-            System.out.println(">>>>>>" + t);
         }
         System.out.println(result);
 
